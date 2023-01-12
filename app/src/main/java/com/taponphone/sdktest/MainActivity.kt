@@ -48,9 +48,9 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra("AMOUNT", editTextAmount.text.toString().toDouble())
 
         try {
-            startActivityForResult(intent, 200)
-        } catch (e: ActivityNotFoundException) {
-            e.printStackTrace()
+            startActivityForResult(intent, 9000)
+        } catch (ex: ActivityNotFoundException) {
+            // PAYable Tap is not installed or outdated
         }
     }
 
@@ -58,13 +58,15 @@ class MainActivity : AppCompatActivity() {
 
         super.onActivityResult(requestCode, resultCode, data)
 
-        var response = "requestCode: $requestCode \n"
-        response += "ID: ${data?.getStringExtra("ID")} \n"
-        response += "METHOD: ${data?.getStringExtra("METHOD")} \n"
-        response += "AMOUNT: ${data?.getDoubleExtra("AMOUNT", 0.00)} \n"
-        response += "ORDER_TRACKING: ${data?.getStringExtra("ORDER_TRACKING")} \n"
-        response += "STATUS: ${data?.getStringExtra("STATUS")} \n"
+        if(requestCode == 9000 && data != null) {
 
-        textViewResponse.text = response
+            val id = data.getStringExtra("ID")
+            val method = data.getStringExtra("METHOD")
+            val orderTracking = data.getStringExtra("ORDER_TRACKING")
+            val amount = data.getDoubleExtra("AMOUNT", 0.00)
+            val status = data.getStringExtra("STATUS")
+
+            textViewResponse.text = "ID: $id \nMETHOD: $method \nORDER_TRACKING: $orderTracking \nAMOUNT: $amount \nSTATUS: $status"
+        }
     }
 }
