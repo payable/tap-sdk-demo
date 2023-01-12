@@ -28,7 +28,7 @@
             android:layout_marginTop="16dp"
             android:ems="10"
             android:hint="Amount *"
-            android:inputType="numberDecimal"
+            android:inputType="text"
             android:selectAllOnFocus="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
