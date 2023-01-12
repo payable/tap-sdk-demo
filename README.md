@@ -108,4 +108,6 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 [![](demo/1.jpeg)](http://io.payable.lk/tap-sdk-demo/demo/recording.mp4)
 
+[Demo Video](http://io.payable.lk/tap-sdk-demo/demo/recording.mp4)
+
 PAYable TAP-on-Phone - Android Integration
