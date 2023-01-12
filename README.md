@@ -38,7 +38,7 @@ private fun startPayment() {
 }
 ```
 
-<b>2.</b> Override `onActivityResult` method to get the response from the `PAYable TAP`.
+<b>2.</b> Override `onActivityResult` method from `Activity` class to get the response from the `PAYable TAP`.
 
 ```kotlin
 override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -68,7 +68,7 @@ UNAUTHORIZED,
 
 <hr>
 
-### Java Example
+### Java
 
 ```java
 private void startPayment() {
