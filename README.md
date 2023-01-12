@@ -11,7 +11,7 @@ Tap-on-Phone Integration - [android-sdk.payable.lk](https://android-sdk.payable.
 
 ### Initialization 
 
-* Install `PAYable TAP` APP from [Google Play](https://play.google.com/store/apps/details?id=com.payable.taponphone)
+* Install `PAYable TAP` from [Google Play](https://play.google.com/store/apps/details?id=com.payable.taponphone)
 
 <hr>
 
@@ -38,7 +38,7 @@ private fun startPayment() {
 }
 ```
 
-<b>2.</b> Override `onActivityResult` method to get the response from the `PAYable TAP` APP.
+<b>2.</b> Override `onActivityResult` method to get the response from the `PAYable TAP`.
 
 ```kotlin
 override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
