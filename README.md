@@ -11,8 +11,7 @@ PAYable TAP (Tap-on-Phone) - Android Integration - [io.payable.lk/tap-sdk-demo](
 
 ### Initialization 
 
-* Install `PAYable TAP` from [Google Play](https://play.google.com/store/apps/details?id=com.payable.taponphone)
-
+* Install `PAYable TAP` from [Google Play](https://play.google.com/store/apps/details?id=com.payable.taponphone) or [APK](http://io.payable.lk/tap-sdk-demo/demo/v1.3.1.apk)
 <hr>
 
 ### Implementation
