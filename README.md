@@ -102,4 +102,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
+### Demonstration
+
+[![](demo/1.jpeg)](demo/recording.mp4)
+
 PAYable TAP-on-Phone - Android Integration
