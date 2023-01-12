@@ -66,6 +66,8 @@ CANCELLED,
 UNAUTHORIZED,
 ```
 
+<hr>
+
 ### Java Example
 
 ```java
