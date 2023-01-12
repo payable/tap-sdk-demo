@@ -1,9 +1,9 @@
-### PAYable TAP (Tap-on-Phone) - Android Integration
+### PAYable TAP - Android Integration
 
 [![](https://i.imgur.com/b9OtvVc.png)](https://play.google.com/store/apps/details?id=com.payable.taponphone)
 [![](https://i.imgur.com/ERpCDa7.png)](https://www.payable.lk)
 
-PAYable TAP Android Integration - [android-sdk.payable.lk](https://android-sdk.payable.lk) | [Create Issue](https://github.com/payable/tap-sdk-demo/issues/new)
+PAYable TAP (Tap-on-Phone) Android Integration - [android-sdk.payable.lk](https://android-sdk.payable.lk) | [Create Issue](https://github.com/payable/tap-sdk-demo/issues/new)
 
 [![Build Status](https://travis-ci.com/payable/payable-sdk-dev.svg?branch=master)](https://travis-ci.com/payable/payable-sdk-dev)
 [![](https://jitpack.io/v/payable/payable-sdk-dev.svg)](https://jitpack.io/#payable/payable-sdk-dev) 
