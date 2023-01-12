@@ -102,6 +102,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
+<hr>
+
 ### Demonstration
 
 [![](demo/1.jpeg)](demo/recording.mp4)
