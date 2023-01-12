@@ -5,8 +5,7 @@
 
 PAYable TAP (Tap-on-Phone) - Android Integration - [io.payable.lk/tap-sdk-demo](https://io.payable.lk/tap-sdk-demo) | [Create Issue](https://github.com/payable/tap-sdk-demo/issues/new)
 
-[![Build Status](https://travis-ci.com/payable/payable-sdk-dev.svg?branch=master)](https://travis-ci.com/payable/payable-sdk-dev)
-[![](https://jitpack.io/v/payable/payable-sdk-dev.svg)](https://jitpack.io/#payable/payable-sdk-dev) 
+[![](https://github.com/payable/tap-sdk-demo/actions/workflows/android.yml/badge.svg)](https://github.com/payable/tap-sdk-demo/actions)
 
 <hr>
 
